@@ -1,10 +1,10 @@
 #練習3
 string="I love you"
-print(string[3:6])
-
+print((string[0:1]),(string[2:6]),(string[7:10]))
 #練習4
-strint="I love you"
-print(strint[::-1])
+string="I love you"
+print((string[0:1]),(string[2:6]),(string[7:10]))
+print(((string[0:1][::-1]),(string[2:6][::-1]),(string[7:10][::-1]))[::-1])
 
 #練習5
 print("I love you","so "*100,"much")
