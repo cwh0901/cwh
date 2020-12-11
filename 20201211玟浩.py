@@ -39,7 +39,7 @@ with open('玟浩.csv','w+',newline='', encoding="utf-8-sig") as csvfile:   #解
     writer.writerow(('日期','分類','標題','連結'))
     
 
-    for i in range(3):
+    for i in range(5):
         ################下拉####################
         for i in range(1,100):
             # driver.execute_script("window.scrollTo(0, ((document.body.scrollHeight)-10));")
